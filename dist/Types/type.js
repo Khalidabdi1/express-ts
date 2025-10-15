@@ -1,6 +1,9 @@
-export var payment;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.payment = void 0;
+var payment;
 (function (payment) {
     payment[payment["price"] = 0] = "price";
     payment[payment["last_price"] = 10] = "last_price";
-})(payment || (payment = {}));
+})(payment || (exports.payment = payment = {}));
 //# sourceMappingURL=type.js.map
